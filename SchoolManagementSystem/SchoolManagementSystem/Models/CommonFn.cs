@@ -24,7 +24,7 @@ namespace SchoolManagementSystem.Models
                 con.Close();
             }
 
-            public DataTable Fecth(string query)
+            public DataTable Fetch(string query)
             {
                 if (con.State == ConnectionState.Closed)
                 {
